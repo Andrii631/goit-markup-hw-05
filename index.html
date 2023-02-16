@@ -33,12 +33,12 @@
               <a href="./index.html" class="link header-link header-navig">Studio</a>
             </li>
             <li>
-              <a href="./portfolio.html" class="link header-link header-navig"
+              <a href="./portfolio.html" class="link header-link "
                 >Portfolio</a
               >
             </li>
             <li>
-              <a href="#" class="link header-link header-navig">Contacts</a>
+              <a href="#" class="link header-link ">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -62,7 +62,7 @@
       <section class="herov">
         <div class="container herov-box">
           <h1 class="herov-text">Effective Solutions for Your Business</h1>
-          <button type="button" class="herov-btn por-but-herov">
+          <button type="button" class="herov-btn" data-modal-open>
             Order Service
           </button>
         </div>
@@ -436,5 +436,15 @@
         </li>
       </ul>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal-close" type="button" data-modal-close>
+          <svg  width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black-18dp"></use>
+          </svg>
+        </button>
+      </div>
+    </div > 
+    <script src="./js/modal.js"></script>
   </body>
 </html>
