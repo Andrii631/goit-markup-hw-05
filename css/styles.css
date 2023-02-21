@@ -126,6 +126,7 @@ body{
 .modal-close:hover,
 .modal-close:focus{
     background-color: var(--link-icon-btn);
+    fill: var(--herov-text-color);
 }
 
 .footer{
@@ -207,6 +208,10 @@ body{
 .contakt-box{ 
     margin-left: auto;
 }
+.header-navig{
+    text-decoration: none;
+    color: var(--link-icon-btn);
+}
 
 
 /* herov section  */
@@ -253,7 +258,6 @@ body{
 /* privileges section  */
 .privil-box{
     display: flex;
-    align-items: center;
     gap: 24px;
     
    
@@ -571,7 +575,7 @@ body{
     align-items: center;
     justify-content: center;
     margin-left: auto;
-    transition: background-color var(--tra);
+    transition: background-color var(--tra), fill var(--tra);
 
 }
 .is-hidden{
